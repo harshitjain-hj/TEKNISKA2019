@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!--General styling-->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="register.css">
+<!--bootstrap-->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+   <title>Register</title>
+</head>
+<body>
+
+           <!-- Modal Paytm -->
+             <div class="modal fade" id="paytm" tabindex="-1"  role="dialog">
+               <div class="modal-dialog modal-dialog-centered " role="document">
+               <div class="modal-content">
+                  <div class="modal-body">
+                     <img src="images/paytm.jpg">
+                  </div>
+               </div>
+               </div>
+            </div>
+   
+            <!-- Modal Phonepay -->
+            <div class="modal fade" id="phonepe" tabindex="-1" role="dialog">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+               <div class="modal-content">
+                  <div class="modal-body">
+                     <img src="images/phonepay.jpg">
+                  </div>
+               </div>
+               </div>
+            </div>
+   
+               <!-- Modal Gpay -->
+            <div class="modal fade" id="gpay" tabindex="-1" role="dialog">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                     <div class="modal-body">
+                        <img src="images/googlepay.jpeg">
+                      </div>
+                  </div>
+               </div>
+            </div>
+
+   <header class=sticky style="z-index: 0">
+      <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">Tekniska 2019</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-lg-auto">
+      <li class="nav-item">
+      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="event.html">Events</a>
+       </li>
+        <!--<li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Contact</a>
+                  </div>
+                </li>
+-->
+      <li class="nav-item active">
+      <a class="nav-link" href="register.html" tabindex="-1" aria-disabled="true">Verify/Register</a>
+      </li>
+      </ul>
+      </div>
+      </nav>
+      </div>
+   </header>
+
+   <div class="register-block">
+      <div class="container block-1">
+         <h2>Solo Registration</h2>
+         <div class="row justify-content-center row-type">
+            <div class="col col-md-6">
+               <div class="content step-1">
+                  <h3>Step-1:</h3>
+                  <p>Enter your basic details along with the events you want to participate in.
+                        By this, you will  get an e-mail with a registration slip stating the amount to be paid.
+                  </p> 
+               </div>
+              <!-- Button trigger modal -->
+              
+                   <a href="https://forms.gle/FS2HnPf2z8k5RxRu9" target="_blank" class=" btn btn-dark btn-lg">Registration Form</a>
+               
+            </div>
+         
+
+            <div class="col col-md-6">
+               <div class="content step-2">
+               <h3>Step-2:</h3>
+               <p>This form generates a paid payment slip by entering the Unique ID and the UPI Transaction ID. (Select the icon to know what UPI Transaction Is)<br>
+                  
+                  <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#paytm" >
+                     <img src="icons/paytm.png" style=" width: 35px; height: 35px" alt="paytm">
+                  </button>
+                  <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#phonepe">
+                     <img src="icons/phone-pe.png" style=" width: 27px; height: 27px" alt="paytm">
+                  </button>
+                  <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#gpay">
+                     <img src="icons/GOOGLEPAY.png" style=" width: 25px; height: 25px" alt="paytm">
+                  </button>
+                  
+               </p>
+               </div>
+               <!-- Button trigger modal -->
+               <a href="https://forms.gle/KkW4tWASQaR95UTz9" target="_blank" class=" btn btn-dark btn-lg">Payment Form</a>
+            </div>
+         </div>
+
+      
+      </div>
+
+      <div class="container block-2">
+            <h2>Group Registration</h2>
+         <div class="row justify-content-center row-type">
+            <div class="col col-md-6">
+                  <div class="content step-1">
+                  <h3>Step-1:</h3>
+                  <p>Enter your basic details along with the events you want to participate in. By this, you will  get an e-mail with a registration slip stating the amount to be paid.
+                  </p>
+                  </div>
+                     <!-- Button trigger modal -->
+                    
+                     <a href="https://forms.gle/mxzTtHSWUiWAAp6P6" target="_blank" class=" btn btn-dark btn-lg">Registration Form</a>
+
+                     </div>
+            <div class="col col-md-6">
+                  <div class="content step-2">
+                  <h3>Step-2:</h3>
+                  <p>This form generates a paid payment slip by entering the UPI Transaction ID and the Unique ID(sent via e-mail in step 1).<br>
+
+                      <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#paytm">
+                        <img src="icons/paytm.png" style=" width: 35px; height: 35px" alt="paytm">
+                     </button>
+                     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#phonepe">
+                        <img src="icons/phone-pe.png" style=" width: 27px; height: 27px" alt="paytm">
+                     </button>
+                     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#gpay">
+                        <img src="icons/GOOGLEPAY.png" style=" width: 25px; height: 25px" alt="paytm">
+                     </button>
+                  </p>   
+               </div> 
+                  <!-- Button trigger modal -->
+               
+                  <a href="https://forms.gle/KkW4tWASQaR95UTz9" target="_blank" class=" btn btn-dark btn-lg">Payment Form</a>
+      
+             
+
+            </div>
+         </div>
+      </div>
+
+      <div class=" container note">
+               <h4>Please Note</h4>
+               <ul>
+                     <li>Registration for solo is <b>₹50</b>  and group event is <b>₹200</b>.</li>
+                     <li>Once the payment slip is generated, the amount will not we refunded.</li>
+                     <li>The mode of payment is UPI.</li>
+                     <li>Every registration slip (generated in step 1 includes) a UPI ID and QR code by which you can make the payment. </li>
+                     <li> Make sure you bring institute ID and the Paid payment slip on the day of the event.</li>
+
+               </ul>
+
+      </div>
+     
+      <div class="contact"><p>For any <b>payment related queries</b> call us on - <br/>+91-8319035085, +91-9406989401, +91-8349740462.</p>
+      </div>
+   </div>
+   
+      
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

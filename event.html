@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="event.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+   <title>Event</title>
+</head>
+<body>
+   
+   <header class=sticky>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="index.html">Tekniska 2019</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-lg-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item active">
+                     <a class="nav-link" href="event.html">Events</a>
+                 </li>
+
+
+<!--<li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Contact</a>
+                  </div>
+                </li>
+-->
+
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="register.html" tabindex="-1" aria-disabled="true">Verify/Register</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+      </div>
+   </header>
+
+   
+
+   <div class="gallery-section">
+
+      <div class=" container note" style="align-items: center">
+         <p>"Awards in each category and certificate for every participant."</p>
+      </div>
+
+      <h1>Events</h1>
+      <div class="border"></div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+         <button type="button" class="btn btn-dark rounded-pill"><a class="nav-link"  href="#technical"  aria-controls="technical" aria-selected="false">Technical</a></button>
+         <button type="button" class="btn btn-dark rounded-pill"><a class="nav-link"  href="#cultural"  aria-controls="cultural" aria-selected="false">Cultural</a></button>
+         <button type="button" class="btn btn-dark rounded-pill"><a class="nav-link"  href="#games"  aria-controls="games" aria-selected="false">Game</a></button>
+      </div>
+   
+      <!--Technical-->
+      <h2 class="tab-pane fade show active" id="technical" role="tabpanel" aria-labelledby="technical-tab">#Technical</h2>
+      <div class="econtainer">
+
+
+         <div class="ecard">
+            <div class="face face1">
+               <div class="content">
+                  <img src="icons\robot.png" style=" width: 180px;
+                  height: 180px" alt="RoboChase">
+                  <h3>RoboChase</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p> 
+                        Life is all about chasing, but let's drop this fact and make the robot clash!!!
+                  </p>
+            
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#robotics">
+                     Rules 
+                  </button>
+                     
+               </div>
+            </div>
+         </div>
+                  
+         <!-- Modal -->
+         <div class="modal fade" id="robotics" tabindex="-1" role="dialog" aria-labelledby="roboticsTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+               <div class="modal-content">
+                  <div class="modal-body">
+                     <img src="poster\robot.jpg" alt="Robotics Rules">
+                  </div>
+               </div>
+               </div>
+         </div>
+
+         <div class="ecard">
+            <div class="face face1">
+               <div class="content">
+                  <img src="icons\bridge2.png" style=" width: 180px;
+                  height: 180px" alt="Bridge Making">
+                  <h3>Bridge Making</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p>A bridge has no allegiance to either side, a great inspiration to all. Why don't we make one and represent them all.
+               </p>
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#bridge">
+                     Rules
+               </button>
+                  
+               </div>
+            </div>
+         </div>
+
+         <!-- Modal -->
+         <div class="modal fade" id="bridge" tabindex="-1" role="dialog" aria-labelledby="BridgeMakingTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+               <div class="modal-content">
+                  <div class="modal-body">
+                     <img src="poster\bridgemaking.jpg" alt="Bridge Making Rules">
+                  </div>
+                  
+               </div>
+               </div>
+         </div>
+
+         <div class="ecard">
+            <div class="face face1">
+               <div class="content">
+                  <img src="icons\diode.png" style=" width: 180px;
+                  height: 180px;" alt="Circuit Design">
+                  <h3>Circuitrix</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p>A circuit, we all know, but we aren't concerned about him. We are talking about the circuits which changed the world. Not everyone can design it, but the one who did it, brightens the world.
+                  </p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#circuit">
+                        Rules
+                  </button>
+               </div>
+            </div>
+         </div>
+
+         <!-- Modal -->
+         <div class="modal fade" id="circuit" tabindex="-1" role="dialog" aria-labelledby="CircuitDesignTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+               <div class="modal-content">
+                  <div class="modal-body">
+                     <img src="poster\circuit.jpg" alt="Circuit Design Rules">
+                  </div>
+                  
+               </div>
+               </div>
+         </div>
+
+
+         <div class="ecard">
+            <div class="face face1">
+               <div class="content">
+                  <img src="icons\code.png" style=" width: 180px;
+                  height: 180px"alt="Coding">
+                  <h3>Join the Coders</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p>Afterall, it's all about coding.
+                  </p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#coding">
+                        Rules
+                  </button>
+               </div>
+            </div>
+         </div>
+
+         <!-- Modal -->
+         <div class="modal fade" id="coding" tabindex="-1" role="dialog" aria-labelledby="CodingTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+               <div class="modal-content">
+                   <div class="modal-body">
+                      <img src="poster\coder.jpg" alt="Coding Rules">
+                   </div>
+                </div>
+            </div>
+         </div>
+
+      </div>  
+   
+        
+        
+       <!--Cultural-->
+      <h2 class="tab-pane fade show active" id="cultural" role="tabpanel" aria-labelledby="cultural-tab">#Cultural</h2>
+      <div class="econtainer">
+
+         <div class="ecard">
+            <div class="face face1">
+               <div class="content">
+                  <img src="icons\Dance.png" style=" width: 90px;  height: 180px" alt="Dance">
+                  <h3>Step-Up</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p>We know an instant mood changer. Do you?.
+                     <br>
+                     <br>
+                    <center>DANCE</center>
+                  </p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#dance">
+                        Rules
+                     </button>
+               </div>
+            </div>
+         </div>
+
+         <!-- Modal -->
+         <div class="modal fade" id="dance" tabindex="-1" role="dialog" aria-labelledby="DanceTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                      <div class="modal-body">
+                         <img src="poster\dance.jpg" alt="Dance Rules">
+                      </div>
+                   </div>
+               </div>
+         </div>
+
+
+         <div class="ecard">
+            <div class="face face1">
+               <div class="content">
+                  <img src="icons\song.png" style=" width: 180px; height: 180px" alt="Song">
+                  <h3>Vocalestra</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p>Who doesn't love songs, but let's see who dares to sing for us all?</p>
+                  <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#song">
+                        Rules
+                     </button>
+               </div>
+            </div>
+         </div>
+
+         <!-- Modal -->
+         <div class="modal fade" id="song" tabindex="-1" role="dialog" aria-labelledby="SongTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                      <div class="modal-body">
+                         <img src="poster\song.jpg" alt="Song Rules">
+                      </div>
+                   </div>
+               </div>
+         </div>         
+
+
+
+         <div class="ecard">
+            <div class="face face1">
+               <div class="content">
+                  <img src="icons\parliment.png" style=" width: 140px; height: 140px;" alt="Yuva Sansad">
+                  <h3>Yuva Sansad</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p>The subject of scholary analysis on leadership, social, political, cultural and economical topics of talented youth</p>
+                  <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#yuvasansad">
+                        Rules
+                     </button>
+               </div>
+            </div>
+         </div>
+
+         <!-- Modal -->
+         <div class="modal fade" id="yuvasansad" tabindex="-1" role="dialog" aria-labelledby="yuvasansadTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                      <div class="modal-body">
+                         <img src="poster\yuvasansad.jpg" alt="Yuvasansad Rules">
+                      </div>
+                   </div>
+               </div>
+         </div>
+
+         
+
+         <div class="ecard">
+            <div class="face face1">
+               <div class="content">
+                  <img src="icons\fashion.png" style=" width: 180px; height: 180px" alt="Fashion">
+                  <h3>Fashioniska</h3>
+               </div>
+            </div>
+            <div class="face face2">
+               <div class="content">
+                  <p>Reprensenting India's rich and diverse cultural outfits.</p>
+                  <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#fashion">
+                        Rules
+                     </button>
+               </div>
+            </div>
+         </div>
+
+         <!-- Modal -->
+         <div class="modal fade" id="fashion" tabindex="-1" role="dialog" aria-labelledby="FashionShowTitle" aria-hidden="true">
+             <div class="modal-dialog modal-dialog-centered" role="document">
+               <div class="modal-content">
+                   <div class="modal-body">
+                       <img src="poster\fashionshow.jpg" alt="Fashion Show">
+                      </div>
+                   </div>
+               </div>
+            </div>
+
+         <div class="ecard">
+               <div class="face face1">
+                  <div class="content">
+                     <img src="icons\debate.png" style=" width: 190px;
+                     height: 190px"alt="Debate">
+                     <h3>WordWar</h3>
+                  </div>
+               </div>
+               <div class="face face2">
+                  <div class="content">
+                     <p>A subject of presentation and analysis of fact
+                     </p>
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#debate">
+                           Rules
+                     </button>
+                  </div>
+               </div>
+         </div>
+         
+         <!-- Modal -->
+         <div class="modal fade" id="debate" tabindex="-1" role="dialog" aria-labelledby="DebateTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                      <div class="modal-body">
+                         <img src="poster\debate.jpg" alt="Debate">
+                      </div>
+                   </div>
+               </div>
+            </div>
+
+
+            <div class="ecard">
+                  <div class="face face1">
+                     <div class="content">
+                        <img src="icons\paperpresentation.png" style=" width: 180px;  height: 130px" alt="Paper Presentation">
+                        <h3>Paper Presentation</h3>
+                     </div>
+                  </div>
+                  <div class="face face2">
+                     <div class="content">
+                        <p> Share your unique and innovative ideas on a right platform open for discussion and suggestions</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#paper">
+                              Rules
+                           </button>
+                     </div>
+                  </div>
+               </div>
+      
+               <!-- Modal -->
+               <div class="modal fade" id="paper" tabindex="-1" role="dialog" aria-labelledby="PaperPresentationTitle" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                               <img src="poster\comingsoon.jpg" alt="Paper Presentation Rules">
+                            </div>
+                         </div>
+                     </div>
+               </div>            
+
+
+               <div class="ecard">
+                  <div class="face face1">
+                     <div class="content">
+                        <img src="icons\band.png" style=" width: 190px; height: 120px" alt="Open Band Performance">
+                        <h3>Open Band Performance</h3>
+                     </div>
+                  </div>
+                  <div class="face face2">
+                     <div class="content">
+                        <p>We are a big fan of rock music like The Beatles, Queen, and even AC/DC. Why don't you play and we may become one of your fans.
+                        </p>
+                        <!-- Button trigger modal -->
+                           <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#band">
+                              Rules
+                           </button>
+                     </div>
+                  </div>
+               </div>
+      
+               <!-- Modal -->
+               <div class="modal fade" id="band" tabindex="-1" role="dialog" aria-labelledby="OpenBandPerformanceTitle" aria-hidden="true">
+                   <div class="modal-dialog modal-dialog-centered" role="document">
+                     <div class="modal-content">
+                         <div class="modal-body">
+                             <img src="poster\comingsoon.jpg" alt="Open Band Performance">
+                            </div>
+                         </div>
+                     </div>
+                  </div>
+      </div>   
+     
+
+        <!--Game-->
+      <h2 class="tab-pane fade show active" id="games" role="tabpanel" aria-labelledby="game-tab">#Game</h2>
+      <div class="econtainer">
+
+         <div class="ecard">
+         <div class="face face1">
+            <div class="content">
+               <img src="icons\counterstrike.png" style=" width: 200px;
+               height: 180px" alt="GamesCon">
+               <h3>GamesCon</h3>
+            </div>
+         </div>
+         <div class="face face2">
+            <div class="content">
+               <p>Do we really need to explain it?
+                  <br>
+                Okay fine. 
+               <br>
+               <center>It's all about GAMING. </center></p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#counterstrike">
+                     Rules
+                  </button>
+            </div>
+         </div>
+         </div>
+
+         <!-- Modal -->
+         <div class="modal fade" id="counterstrike" tabindex="-1" role="dialog" aria-labelledby="CounterStrikeTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                        <div class="modal-body">
+                           <img src="poster\game.jpg" alt="PC GAMING Rules">
+                        </div>
+                     </div>
+               </div>
+         </div>
+
+         <div class="ecard">
+         <div class="face face1">
+            <div class="content">
+               <img src="icons\mystery.png" style=" width: 150px;
+               height: 150px" alt="Treasure Hunt">
+               <h3>Treasure Hunt</h3>
+            </div>
+         </div>
+         <div class="face face2">
+            <div class="content">
+               <p>Hunting of animal is cruel, but hunting for treasure is we all desire.</p>
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#treasurehunt">
+                  Rules
+               </button>
+            </div>
+         </div>
+         </div>
+
+         <!-- Modal -->
+         <div class="modal fade" id="treasurehunt" tabindex="-1" role="dialog" aria-labelledby="TreasureHuntTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                      <div class="modal-body">
+                         <img src="poster\comingsoon.jpg" alt="Treasure Hunt">
+                      </div>
+                   </div>
+               </div>
+            </div>
+
+
+         <div class="ecard">
+         <div class="face face1">
+            <div class="content">
+               <img src="icons\quiz.png" style=" width: 180px;
+               height: 120px;" alt="Quizomania">
+               <h3>Quizomania</h3>
+            </div>
+         </div>
+         <div class="face face2">
+            <div class="content">
+               <p>Quizzing someone is amusing, but let's see how far we get this time.</p>
+               <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#quizomania">
+                        Rules
+                     </button>
+            </div>
+         </div>
+         </div>
+
+         <!-- Modal -->
+         <div class="modal fade" id="quizomania" tabindex="-1" role="dialog" aria-labelledby="QuizomaniaTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                        <div class="modal-body">
+                           <img src="poster\quiz.jpeg" alt="Quizomania Rules">
+                        </div>
+                     </div>
+               </div>
+         </div>
+      </div>
+
+   </div>
+
+  
+
+
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

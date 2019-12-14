@@ -1,0 +1,85 @@
+     <div class="section-1">
+      <div class="event-info">
+      <h1>Events</h1>
+    <!-- Button trigger modal -->
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cultural">
+      Cultural
+   </button>
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#technical">
+      Technical
+   </button>
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#gaming">
+      Gaming
+   </button>
+   <!-- Modal -->
+   <div class="modal fade" id="cultural" tabindex="-1" role="dialog" aria-labelledby="Cultural Events" >
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalScrollableTitle">Cultural Events</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+         </div>
+         <div class="modal-body">
+            <ul style="list-style-type: none">
+               <li>Dance</li>
+               <li>Yuva sansad</li>
+               <li>Song</li>
+            </ul>
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+      </div>
+   </div>
+
+   <div class="modal fade" id="technical" tabindex="-1" role="dialog" aria-labelledby="Technical Events" >
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalScrollableTitle">Technical Events</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+         </div>
+         <div class="modal-body">
+            <ul style="list-style-type: none; ">
+               <li>Bridge Making</li>
+               <li>Robotics</li>
+               <li>Circuit Design</li>
+            </ul>
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+      </div>
+   </div>
+
+   <div class="modal fade" id="gaming" tabindex="-1" role="dialog" aria-labelledby="gaming" >
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalScrollableTitle">Gaming Events</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+         </div>
+         <div class="modal-body">
+            <ul style="list-style-type: none; ">
+               <li>Lan Gaming</li>
+               <li>PubG</li>
+               <li>Treasure Hunt</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consectetur esse dicta mollitia vero aliquam possimus, tempora, enim est quibusdam, ex nemo dolorum modi! Dolorum, debitis totam maxime magnam ex dolorem officiis minus animi quibusdam voluptas alias tempora, iure quasi voluptatibus assumenda. Consequatur enim fugiat, maiores quaerat esse dolor magnam libero dicta ab magni, iusto ullam, eos nemo sapiente accusantium? Dolore distinctio odit quaerat dolor asperiores deleniti labore nobis ipsa adipisci explicabo culpa, porro nostrum animi, quidem nesciunt eaque fugit excepturi reprehenderit quasi. Temporibus unde explicabo nam laborum laboriosam distinctio, dolor nulla doloremque sunt quam, doloribus impedit? Corrupti, vitae quisquam!</p>
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+      </div>
+   </div>
+</div>
+   </div>

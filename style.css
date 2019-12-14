@@ -1,0 +1,380 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme|Bad+Script|Boogaloo|Changa:200|Kalam|Lato:700|Lora:700|Magra|Molengo|Nanum+Pen+Script|Orbitron|Philosopher|Quicksand:500&display=swap');
+header{
+   position: absolute;
+   z-index: 1;
+   width: 100%;
+}
+
+.navbar {
+   padding: 0.1rem 0 !important;
+}
+
+.navbar-brand {
+   font-weight: 800;
+
+   font-size: 2em !important;
+   color: #d8d6f3;
+   font-family: 'Pacifico', cursive;
+}
+
+.nav-item {
+   font-weight: 600;
+   text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover ,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+   background: #262626;
+   color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link{
+   color: #262626;
+   padding: 5px 15px
+}
+
+
+/*Banner*/
+
+.banner {
+   position: relative;
+   background: url(perfect.png);
+   object-fit: contain;
+   opacity: 1;;
+   min-height: 100vh;
+   background-color: #fff ;
+   background-position: center;
+   padding: 250px 0 130px;
+
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  /* display: flex;*/
+   align-items: center;
+   
+}
+.banner h3 {
+   color: #fff;
+   text-transform: uppercase; 
+   font-family: 'Acme', sans-serif;
+}
+
+.banner h2 {
+   margin: 0;
+   padding: 0 0 15px;
+   font-size: 2.8em;
+   font-weight: 500;
+   color: #fff; 
+   font-family: 'Leckerli One', cursive;
+}
+
+.banner p {
+   margin: 1em 0 0;
+   padding: 0;
+   font-size: 1.4em;
+   line-height: 1.5em;
+   color: #fff;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.btn1 {
+   display: inline-block;
+   margin: 2em 0 0;
+   background: #ff2670;
+   color: #fff;
+   padding: 10px 15px;
+   text-transform: uppercase;
+   border: none;
+   font-weight: 800;
+}
+
+.btn1:hover {
+   color: #fff;
+   text-decoration: none;
+}
+
+.navbar-light .navbar-toogler
+{
+   border: none;
+   color: #fff;
+   border: 2px solid #7f7f7f;
+   border-radius: 0;
+   outline: none;
+}
+
+
+/*COUNTER*/
+
+.countdown-col{
+   
+   top: 200px;
+}
+
+
+ .time{
+   background: #17161652;
+   color: #ffffff;
+   text-transform: uppercase;
+   text-shadow: 3px 1px 10px #007bff;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   border-radius: 100%;
+  
+  
+ }
+ 
+ .time span{
+   text-align: center;
+   padding: 0 15px;
+   font-size: 18px;
+   font-weight: 400;
+   font-family: 'Oswald', sans-serif;
+ }
+ .time span div{
+   font-size: 80px;
+   font-weight: 350;
+ }
+  
+
+ 
+ section {
+    overflow: hidden;
+ }
+
+ .section-1 {
+  padding: 1vmin 0vmin 0vmin;
+  
+ }
+
+ .cover {
+   width: 100%;
+   height: 35vmin;
+   background: linear-gradient(to right, #171616, #200d0d, #171616);
+
+  
+   
+   background-position: -24rem -19rem;
+   position: relative;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  /* display: flex;*/
+   align-items: center;
+}
+.evincing{
+left: 90px;
+}
+
+ .cover .content {
+   
+    height:100%;
+    width: 100%;
+   padding-top: 5vmin;
+   font-family: 'Philosopher', sans-serif;
+ }
+ 
+ .cover .content >h1 {
+    font-size: 6vmin;
+    color: whitesmoke;
+ }
+
+ .cover .content > p {
+    font-size: 2vmin;
+    color: #e5e5e5;
+ }
+
+ .cards{
+   background: #171516;
+   color: #fff;
+   text-align: center; 
+ }
+.cards .card-title{
+   font-family: 'Changa', sans-serif;
+}
+
+ .list-group-item {
+   position: relative;
+   display: block;
+   padding: .75rem 1.25rem;
+   margin-bottom: -1px;
+   background-color: #fff;
+   border: 1px solid rgba(0,0,0,.125);
+   font-family: 'Changa', sans-serif;
+}
+
+.list-group-item {
+   margin-bottom: -2px !important;
+   background-color: #171516 !important;
+   border: 1px solid rgb(220, 48, 48) !important;
+}
+
+ .numbers .rect {
+   position: relative;
+   z-index: 1;
+   background: none;
+   margin: 1rem;
+   border-radius: 0em;
+   box-shadow: 0px 0px 10px 2px #a8aeb4d6;
+}
+ 
+ .numbers {
+    margin-top: -15vmin;
+ }
+
+ .numbers .rect h1 {
+    font-size: 5rem;
+    color: #262626;
+ }
+
+
+footer {
+   background: #262626;
+   overflow-x: hidden;
+   padding: 5vmin 5vmin;
+}
+
+.btn-footer {
+   color: #f8f9fa !important;
+   text-decoration: none !important;
+   padding: 15px;
+}
+
+footer .column i{
+   color: #ff2670;
+   font-size: 25px;
+   padding: 5px 15px 0 0;
+}
+
+.text-light{
+   font-family: 'Magra', sans-serif;
+}
+.sticky  {
+   
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background:rgba(226, 226, 228, 0.84);
+   z-index: 9999;
+   transition: all 1.5s ease;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+   .banner{
+   background:url(perfect.png); 
+   background-size: cover;
+   background-position-x: center;
+
+}
+   .banner h2 {
+   margin: 3px;
+   padding: 0px 0 10px;
+   font-size: 2.4em;
+   font-weight: 450;
+}
+   .time{
+      top: 140px;
+      padding: 20px 0px 25px;
+
+   }
+      
+  .time span{
+     
+     font-size: 12px;
+     font-weight: 500;
+   }
+  .time span div{
+     font-size: 50px;
+   }
+   .time-column .middle{
+      
+      margin-left: 54px;
+   }
+}
+
+@media (max-width: 766px){
+   .banner {
+      padding: 130px 0 200px;
+   }  
+   .banner h2{
+      font-size: 1.8em;
+   }
+   .banner p {
+      font-size: 1.48em;
+      line-height: 1.2em;
+   }
+   .time {
+      padding: 0 0 25px;
+   }
+  .time span{
+     font-size: 12px;
+     font-weight: 700;
+     
+   }
+  .time span div{
+     font-size: 40px;
+   }
+   .section-2 .cover {
+      background-position: -25vmin -10vmin;
+   }
+   
+   .numbers.rect {
+      width: 10%
+   }
+}
+
+@media (max-width: 426px){
+   .banner{
+      background: url(tekniska375.png);
+      background-size: cover;
+      padding: 120px 0 0;
+   }
+   .time-column .middle {
+      margin-left: 0px;
+  }
+  .countdown-col{
+   
+   top: 0px;
+}
+   .evincing{
+   left: 0px;
+   }
+
+  .time {
+   top: 80px;
+   background: none;
+   text-shadow: none;
+
+   }
+   .banner h2 {
+   margin: 0px;
+   padding: 80px 30px 0px;
+   font-size: 2em;
+}
+.banner h3 {
+   padding: 10px 30px 0px;
+   font-size: 1.4em;
+}
+.banner p {
+   margin: 0px;
+   padding: 0px 30px 0px;
+   font-size: 1.2em;
+}
+.btn1{
+   padding: 6px 20px ;
+   margin: 40px 30px;
+}
+.navbar-brand{
+   font-size: 1.6rem !important;
+}
+.cover {
+   background-color: #171616 !important; 
+}
+}

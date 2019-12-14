@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Averia+Serif+Libre:400i|Bad+Script|Boogaloo|Changa:200|Gabriela|Kalam|Lato:700|Lora:700|Magra|Maitree:600|Molengo|Nanum+Pen+Script|Orbitron|Pattaya|Philosopher|Proza+Libre:500i|Quicksand:500|Seaweed+Script&display=swap');
+body{
+   overflow: auto ;
+}
+.register-block{
+   padding: 1vmin 0;
+   width: 100%;
+   background-color: #171616;
+   flex-wrap: wrap;
+}
+.register-block h2{
+   text-align: center;
+   color: #ed213a; 
+   font-family: 'Acme', sans-serif;
+}
+.register-block h3{
+   font-family: 'Acme', sans-serif;
+}
+
+.block-1, .block-2{
+   margin: 65px auto ;
+}
+
+.register-block .content{
+   color: #fff;
+}
+
+.row-type{
+   padding: 10px;
+   border: solid 2px #31313138;
+}
+
+
+.register-block .btn{
+   width: 10;
+}
+.row-type:hover,
+.row-type:hover {
+   background: #2c2a2a
+}
+
+
+
+.contact{
+   color: rgb(161, 153, 153) ;
+   text-align: center;
+   padding-bottom: 3vmin;
+   font-family: 'Averia Serif Libre', cursive;
+}
+.note{
+   padding: 10px;
+   color: rgb(161, 153, 153);
+   border: 3px solid #fd6678;
+   box-shadow: 0px 0px 12px #c22e2e;
+   margin-bottom: 20px
+}
+
+.note h4{
+   text-align: center;
+   font-weight: 700;
+   color: antiquewhite;
+   padding: 5px 0;
+}
+
+.col p .btn{
+   border: none !important;
+   padding: 0 5px!important;
+}
+
+.modal-content{
+   width: 48% !important;
+   border: none !important;
+}
+.modal-body{
+   padding: 0 !important;
+}
+
+.sticky  {
+   position: relative;
+ }
+

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Averia+Serif+Libre:400i|Bad+Script|Boogaloo|Changa:200|Gabriela|Kalam|Lato:700|Lora:700|Magra|Maitree:600|Molengo|Nanum+Pen+Script|Orbitron|Pattaya|Philosopher|Proza+Libre:500i|Quicksand:500|Seaweed+Script&display=swap');
+body{
+   font-family: tahoma !important; 
+   text-align: justify !important;
+   overflow: auto;
+   
+}
+
+#about{
+   padding: 90px 105px;
+   background: #20212a;
+
+}
+
+
+#about .p-first{
+   margin-bottom: 30px;
+}
+#about h1{
+   margin-bottom: 80px;
+   margin-top: 0px;
+   text-align: center;
+   font-size: 50px;
+}
+#about h2{
+   margin-bottom: 10px;
+   margin-top: -25px;
+}
+
+#about .social-link-text{
+   margin-top: 50px;
+   margin-bottom: 25px; 
+}
+
+#about .about-link{
+   padding-left: 0px;  
+}
+
+#about .about-link li{
+   display: inline-block;
+}
+
+#about .about-link li a i{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   line-height: 50px;
+   text-align: center;
+   border: 1px solid #d6c6b2;
+   margin-right: 10px;
+   font-size: 22px;
+   color: #d6c6b2;
+   transition: all .3s;
+}
+
+#about .about-link li a i:hover{
+   color: #222222;
+   background: #d6c6b2;
+   border-color: #d6c6b2
+}
+
+#about .about-img{
+   position: relative;
+
+}
+
+#about .stroke{
+   justify-items: center;
+ 
+}
+
+.color-3{
+   color: #d6c6b2;
+   padding-bottom: 10px;
+   font-family: 'Proza Libre', sans-serif;
+
+}
+
+.text-white{
+   color: white;
+   font-family: 'Proza Libre', sans-serif;
+}
+
+p{
+   margin-bottom: 0;
+   font-size: 16px;
+   line-height: 24px;
+   
+}
+
+.btn-danger{
+   border-radius: 0 !important;
+   padding: 10px 20px !important;
+}
+
+
+.about-commitee{
+      color: #c4c4c4;
+      margin: -30px 20px 0px 50px;
+      padding: auto;
+      background:#3335456e;
+      box-shadow: 0 0 15px #8b84c0c2;
+   
+}
+
+
+.about-commitee .heading{
+   color: #dd4949e3;
+   font-weight: 700;
+   font-family: 'Proza Libre', sans-serif;
+}
+
+.about-commitee h3{
+   color: antiquewhite;
+    text-align: center;
+    font-weight: 700;
+    font-size: xx-large;
+    margin: 30px 0;
+}
+.about-commitee li{
+   list-style: none;
+   font-family: 'Maitree', serif;
+
+}
+
+.about-commitee .designation{
+   font-size: 15px;
+   color: #e3dfdfe0;
+   font-family: 'Averia Serif Libre', cursive;
+}
+
+@media screen and (max-width:426px){
+   #about {
+      padding: 80px 15px;
+  }
+  #about h1{
+   margin-bottom: 20px;
+}
+}
